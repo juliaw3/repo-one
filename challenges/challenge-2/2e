@@ -1,0 +1,71 @@
+Last login: Fri Oct  2 17:23:14 on ttys000
+Mungo% gem install suspenders
+Fetching: thread_safe-0.3.5.gem (100%)
+Successfully installed thread_safe-0.3.5
+Fetching: tzinfo-1.2.2.gem (100%)
+Successfully installed tzinfo-1.2.2
+Fetching: i18n-0.7.0.gem (100%)
+Successfully installed i18n-0.7.0
+Fetching: activesupport-4.2.4.gem (100%)
+Successfully installed activesupport-4.2.4
+Fetching: rails-deprecated_sanitizer-1.0.3.gem (100%)
+Successfully installed rails-deprecated_sanitizer-1.0.3
+Fetching: mini_portile-0.6.2.gem (100%)
+Successfully installed mini_portile-0.6.2
+Fetching: nokogiri-1.6.6.2.gem (100%)
+Building native extensions.  This could take a while...
+Successfully installed nokogiri-1.6.6.2
+Fetching: rails-dom-testing-1.0.7.gem (100%)
+Successfully installed rails-dom-testing-1.0.7
+Fetching: loofah-2.0.3.gem (100%)
+Successfully installed loofah-2.0.3
+Fetching: rails-html-sanitizer-1.0.2.gem (100%)
+Successfully installed rails-html-sanitizer-1.0.2
+Fetching: erubis-2.7.0.gem (100%)
+Successfully installed erubis-2.7.0
+Fetching: builder-3.2.2.gem (100%)
+Successfully installed builder-3.2.2
+Fetching: actionview-4.2.4.gem (100%)
+Successfully installed actionview-4.2.4
+Fetching: rack-1.6.4.gem (100%)
+Successfully installed rack-1.6.4
+Fetching: rack-test-0.6.3.gem (100%)
+Successfully installed rack-test-0.6.3
+Fetching: actionpack-4.2.4.gem (100%)
+Successfully installed actionpack-4.2.4
+Fetching: sprockets-3.3.5.gem (100%)
+Successfully installed sprockets-3.3.5
+Fetching: sprockets-rails-2.3.3.gem (100%)
+Successfully installed sprockets-rails-2.3.3
+Fetching: thor-0.19.1.gem (100%)
+Successfully installed thor-0.19.1
+Fetching: railties-4.2.4.gem (100%)
+Successfully installed railties-4.2.4
+Fetching: globalid-0.3.6.gem (100%)
+Successfully installed globalid-0.3.6
+Fetching: activejob-4.2.4.gem (100%)
+Successfully installed activejob-4.2.4
+Fetching: mime-types-2.6.2.gem (100%)
+Successfully installed mime-types-2.6.2
+Fetching: mail-2.6.3.gem (100%)
+Successfully installed mail-2.6.3
+Fetching: actionmailer-4.2.4.gem (100%)
+Successfully installed actionmailer-4.2.4
+Fetching: arel-6.0.3.gem (100%)
+Successfully installed arel-6.0.3
+Fetching: activemodel-4.2.4.gem (100%)
+Successfully installed activemodel-4.2.4
+Fetching: activerecord-4.2.4.gem (100%)
+Successfully installed activerecord-4.2.4
+Fetching: rails-4.2.4.gem (100%)
+Successfully installed rails-4.2.4
+Fetching: sass-3.4.18.gem (100%)
+Successfully installed sass-3.4.18
+Fetching: bourbon-4.2.5.gem (100%)
+Successfully installed bourbon-4.2.5
+Fetching: bitters-1.1.0.gem (100%)
+Successfully installed bitters-1.1.0
+Fetching: suspenders-1.31.0.gem (100%)
+ERROR:  Error installing suspenders:
+	suspenders requires Ruby version >= 2.2.3.
+Mungo% 
