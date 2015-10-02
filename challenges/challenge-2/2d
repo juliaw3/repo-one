@@ -1,0 +1,198 @@
+Last login: Fri Oct  2 16:59:03 on ttys001
+Mungo% rbenv install -1
+Usage: rbenv install [-f] [-kvp] <version>
+       rbenv install [-f] [-kvp] <definition-file>
+       rbenv install -l|--list
+
+  -l/--list          List all available versions
+  -f/--force         Install even if the version appears to be installed already
+  -s/--skip-existing Skip if the version appears to be installed already
+
+  ruby-build options:
+
+  -k/--keep          Keep source tree in $RBENV_BUILD_ROOT after installation
+                     (defaults to $RBENV_ROOT/sources)
+  -v/--verbose       Verbose mode: print compilation status to stdout
+  -p/--patch         Apply a patch from stdin before building
+
+For detailed information on installing Ruby versions with
+ruby-build, including a list of environment variables for adjusting
+compilation, see: https://github.com/sstephenson/ruby-build#usage
+
+Mungo% rbenv -l
+rbenv: no such command `-l'
+Mungo% rbenv install -l
+Available versions:
+  1.8.6-p383
+  1.8.6-p420
+  1.8.7-p249
+  1.8.7-p302
+  1.8.7-p334
+  1.8.7-p352
+  1.8.7-p357
+  1.8.7-p358
+  1.8.7-p370
+  1.8.7-p371
+  1.8.7-p374
+  1.8.7-p375
+  1.9.1-p378
+  1.9.1-p430
+  1.9.2-p0
+  1.9.2-p180
+  1.9.2-p290
+  1.9.2-p318
+  1.9.2-p320
+  1.9.2-p326
+  1.9.2-p330
+  1.9.3-dev
+  1.9.3-preview1
+  1.9.3-rc1
+  1.9.3-p0
+  1.9.3-p125
+  1.9.3-p194
+  1.9.3-p286
+  1.9.3-p327
+  1.9.3-p362
+  1.9.3-p374
+  1.9.3-p385
+  1.9.3-p392
+  1.9.3-p429
+  1.9.3-p448
+  1.9.3-p484
+  1.9.3-p545
+  1.9.3-p547
+  1.9.3-p550
+  1.9.3-p551
+  2.0.0-dev
+  2.0.0-preview1
+  2.0.0-preview2
+  2.0.0-rc1
+  2.0.0-rc2
+  2.0.0-p0
+  2.0.0-p195
+  2.0.0-p247
+  2.0.0-p353
+  2.0.0-p451
+  2.0.0-p481
+  2.0.0-p576
+  2.0.0-p594
+  2.0.0-p598
+  2.0.0-p643
+  2.0.0-p645
+  2.0.0-p647
+  2.1.0-dev
+  2.1.0-preview1
+  2.1.0-preview2
+  2.1.0-rc1
+  2.1.0
+  2.1.1
+  2.1.2
+  2.1.3
+  2.1.4
+  2.1.5
+  2.1.6
+  2.1.7
+  2.2.0-dev
+  2.2.0-preview1
+  2.2.0-preview2
+  2.2.0-rc1
+  2.2.0
+  2.2.1
+  2.2.2
+  2.2.3
+  2.3.0-dev
+  jruby-master+graal-dev
+  jruby-1.5.6
+  jruby-1.6.3
+  jruby-1.6.4
+  jruby-1.6.5
+  jruby-1.6.5.1
+  jruby-1.6.6
+  jruby-1.6.7
+  jruby-1.6.7.2
+  jruby-1.6.8
+  jruby-1.7.0-preview1
+  jruby-1.7.0-preview2
+  jruby-1.7.0-rc1
+  jruby-1.7.0-rc2
+  jruby-1.7.0
+  jruby-1.7.1
+  jruby-1.7.2
+  jruby-1.7.3
+  jruby-1.7.4
+  jruby-1.7.5
+  jruby-1.7.6
+  jruby-1.7.7
+  jruby-1.7.8
+  jruby-1.7.9
+  jruby-1.7.10
+  jruby-1.7.11
+  jruby-1.7.12
+  jruby-1.7.13
+  jruby-1.7.14
+  jruby-1.7.15
+  jruby-1.7.16
+  jruby-1.7.16.1
+  jruby-1.7.16.2
+  jruby-1.7.17
+  jruby-1.7.18
+  jruby-1.7.19
+  jruby-1.7.20
+  jruby-1.7.20.1
+  jruby-1.7.21
+  jruby-1.7.22
+  jruby-9.0.0.0-dev
+  jruby-9.0.0.0+graal-dev
+  jruby-9.0.0.0.pre1
+  jruby-9.0.0.0.pre2
+  jruby-9.0.0.0.rc1
+  jruby-9.0.0.0.rc2
+  jruby-9.0.0.0
+  jruby-9.0.1.0
+  jruby-9.0.2.0+graal-dev
+  maglev-1.0.0
+  maglev-1.1.0-dev
+  maglev-2.0.0-dev
+  mruby-dev
+  mruby-1.0.0
+  mruby-1.1.0
+  rbx-1.2.4
+  rbx-2.0.0-dev
+  rbx-2.0.0-rc1
+  rbx-2.0.0
+  rbx-2.1.0
+  rbx-2.1.1
+  rbx-2.2.0
+  rbx-2.2.1
+  rbx-2.2.2
+  rbx-2.2.3
+  rbx-2.2.4
+  rbx-2.2.5
+  rbx-2.2.6
+  rbx-2.2.7
+  rbx-2.2.9
+  rbx-2.2.10
+  rbx-2.3.0
+  rbx-2.4.0
+  rbx-2.4.1
+  rbx-2.5.0
+  rbx-2.5.1
+  rbx-2.5.2
+  rbx-2.5.3
+  rbx-2.5.4
+  rbx-2.5.5
+  rbx-2.5.6
+  rbx-2.5.7
+  rbx-2.5.8
+  ree-1.8.7-2011.03
+  ree-1.8.7-2011.12
+  ree-1.8.7-2012.01
+  ree-1.8.7-2012.02
+  topaz-dev
+Mungo% rbenv install 2.2.3
+Downloading ruby-2.2.3.tar.gz...
+-> https://dqw8nmjcqpjn7.cloudfront.net/df795f2f99860745a416092a4004b016ccf77e8b82dec956b120f18bdc71edce
+Installing ruby-2.2.3...
+Installed ruby-2.2.3 to /Users/julia/.rbenv/versions/2.2.3
+
+Mungo% 
