@@ -1,0 +1,16 @@
+~ % chsh -s $(which zsh)
+Changing shell for julia.
+Password for julia: 
+chsh: Credentials could not be verified, username or password is invalid.  Credentials could not be verified, username or password is invalid.
+~ % chsh -s $(which zsh)
+Changing shell for julia.
+Password for julia: 
+chsh: no changes made
+~ % git clone git://github.com/thoughtbot/dotfiles.git
+fatal: destination path 'dotfiles' already exists and is not an empty directory.
+~ % brew tap thoughtbot/formulae
+Warning: Already tapped!
+~ % brew install rcm
+Warning: thoughtbot/formulae/rcm-1.2.3 already installed
+~ % env RCRC=$HOME/dotfiles/rcrc rcup
+~ % 
