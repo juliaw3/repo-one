@@ -1,0 +1,704 @@
+~ % gem install suspenders
+Successfully installed suspenders-1.31.0
+1 gem installed
+~ % suspenders projectOne
+zsh: command not found: suspenders
+~ % xcode-select -p
+/Library/Developer/CommandLineTools
+~ % gcc
+clang: error: no input files
+~ % suspenders projec  
+zsh: command not found: suspenders
+~ % rails new
+No value provided for required arguments 'app_path'
+~ % gem list suspenders
+
+*** LOCAL GEMS ***
+
+suspenders (1.31.0)
+~ % rbenv rehash
+~ % suspenders projectOne
+      create  
+      create  README.md
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/views/layouts/application.html.erb
+      create  app/assets/images/.keep
+      create  app/mailers/.keep
+      create  app/models/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+      remove  Gemfile
+      create  Gemfile
+      create  .ruby-version
+         run  bundle install
+bundle install
+Fetching gem metadata from https://rubygems.org/............
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies...........................................................................................
+Using rake 10.4.2
+Using i18n 0.7.0
+Installing json 1.8.3 with native extensions
+Installing minitest 5.8.1
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile 0.6.2
+Using rack 1.6.4
+Using mime-types 2.6.2
+Using arel 6.0.3
+Installing addressable 2.3.8
+Installing execjs 2.6.0
+Installing multi_json 1.11.2
+Installing debug_inspector 0.0.2 with native extensions
+Installing awesome_print 1.6.1
+Using sass 3.4.18
+Using thor 0.19.1
+Using bundler 1.10.6
+Installing byebug 6.0.2 with native extensions
+Installing coderay 1.1.0
+Installing coffee-script-source 1.9.1.1
+Installing safe_yaml 1.0.4
+Installing database_cleaner 1.5.0
+Installing diff-lcs 1.2.5
+Installing docile 1.1.5
+Installing dotenv 2.0.2
+Installing thread 0.2.2
+Installing flutie 2.0.0
+Installing high_voltage 2.4.0
+Installing highline 1.7.7
+Installing tins 1.6.0
+Installing terminal-table 1.5.2
+Installing method_source 0.8.2
+Installing newrelic_rpm 3.13.2.302
+Installing normalize-rails 3.0.3
+Installing pg 0.18.3 with native extensions
+Installing slop 3.6.0
+Installing puma 2.14.0 with native extensions
+Installing rack-timeout 0.3.2
+Installing rspec-support 3.3.0
+Installing tilt 2.0.1
+Installing simplecov-html 0.10.0
+Installing spring 1.4.0
+Installing timecop 0.8.0
+Using tzinfo 1.2.2
+Using nokogiri 1.6.6.2
+Using rack-test 0.6.3
+Using sprockets 3.4.0
+Using mail 2.6.3
+Installing launchy 2.4.3
+Installing rack-canonical-host 0.1.0
+Installing refills 0.1.0
+Installing autoprefixer-rails 6.0.3
+Installing uglifier 2.7.2
+Using bourbon 4.2.5
+Installing airbrake 4.3.1
+Installing bundler-audit 0.4.0
+Installing binding_of_caller 0.7.2 with native extensions
+Installing coffee-script 2.4.1
+Installing crack 0.4.2
+Installing easy_translate 0.5.0
+Installing term-ansicolor 1.3.2
+Installing pry 0.10.2
+Installing rspec-core 3.3.2
+Installing rspec-expectations 3.3.1
+Installing simplecov 0.10.0
+Installing rspec-mocks 3.3.2
+Using activesupport 4.2.4
+Using loofah 2.0.3
+Installing spring-commands-rspec 1.0.4
+Installing xpath 2.0.0
+Installing neat 1.7.2
+Installing recipient_interceptor 0.1.2
+Installing webmock 1.21.0
+Installing pry-rails 0.3.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.6
+Using activemodel 4.2.4
+Installing delayed_job 4.1.1
+Installing factory_girl 4.5.0
+Installing i18n-tasks 0.8.7
+Using rails-html-sanitizer 1.0.2
+Installing shoulda-matchers 3.0.0
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.4
+Using activerecord 4.2.4
+Installing capybara 2.5.0
+Using actionview 4.2.4
+Installing email_validator 1.6.0
+Installing delayed_job_active_record 4.1.0
+Installing capybara-webkit 1.7.1 with native extensions
+Installing formulaic 0.3.0
+Using actionpack 4.2.4
+Using actionmailer 4.2.4
+Using railties 4.2.4
+Using sprockets-rails 2.3.3
+Installing simple_form 3.2.0
+Installing coffee-rails 4.1.0
+Installing dotenv-rails 2.0.2
+Installing factory_girl_rails 4.5.0
+Installing jquery-rails 4.0.5
+Installing rspec-rails 3.3.3
+Using rails 4.2.4
+Installing sass-rails 5.0.4
+Installing web-console 2.2.1
+Installing title 0.0.5
+Bundle complete! 42 Gemfile dependencies, 107 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+Post-install message from i18n-tasks:
+# Install default configuration:
+cp $(i18n-tasks gem-path)/templates/config/i18n-tasks.yml config/
+# Add an RSpec for missing and unused keys:
+cp $(i18n-tasks gem-path)/templates/rspec/i18n_spec.rb spec/
+Setting up the development environment
+      insert  config/environments/development.rb
+      insert  config/application.rb
+       force  bin/setup
+         run  chmod a+x bin/setup from "."
+      create  lib/tasks/dev.rake
+      insert  config/application.rb
+        gsub  config/environments/development.rb
+        gsub  config/environments/test.rb
+Setting up the test environment
+      create  spec/support/factory_girl.rb
+      create  .hound.yml
+    generate  rspec:install
+[Simple Form] Simple Form is not configured in the application and will use the default values. Use `rails generate simple_form:install` to generate the Simple Form configuration.
+      create  .rspec
+       exist  spec
+      create  spec/spec_helper.rb
+      create  spec/rails_helper.rb
+      remove  spec/rails_helper.rb
+      remove  spec/spec_helper.rb
+      create  spec/rails_helper.rb
+      create  spec/spec_helper.rb
+         run  rails g delayed_job:active_record from "."
+[Simple Form] Simple Form is not configured in the application and will use the default values. Use `rails generate simple_form:install` to generate the Simple Form configuration.
+      create  bin/delayed_job
+       chmod  bin/delayed_job
+      create  db/migrate/20151006102428_create_delayed_jobs.rb
+      create  spec/support/database_cleaner.rb
+      create  spec/features
+      create  spec/features/.keep
+      create  spec/support/features
+      create  spec/support/features/.keep
+      create  circle.yml
+      create  spec/support/i18n.rb
+         run  cp $(i18n-tasks gem-path)/templates/rspec/i18n_spec.rb spec/ from "."
+      create  config/i18n-tasks.yml
+      create  spec/support/action_mailer.rb
+Setting up the production environment
+      create  config/newrelic.yml
+      create  config/smtp.rb
+     prepend  config/environments/production.rb
+      insert  config/environments/production.rb
+      append  config/environments/production.rb
+      insert  config/environments/production.rb
+      insert  config/environments/production.rb
+      insert  config/environments/production.rb
+Setting up the staging environment
+      create  config/environments/staging.rb
+      append  config/environments/staging.rb
+Moving secret token out of version control
+       force  config/secrets.yml
+Creating suspenders views
+      create  app/views/application
+      create  app/views/application/_flashes.html.erb
+      create  app/helpers/flashes_helper.rb
+      create  app/views/application/_javascript.html.erb
+       force  app/views/layouts/application.html.erb
+Configuring app
+      insert  config/environments/development.rb
+      insert  config/environments/test.rb
+      insert  config/environments/staging.rb
+      insert  config/environments/production.rb
+      insert  config/application.rb
+      insert  config/environments/test.rb
+      remove  config/locales/en.yml
+      create  config/locales/en.yml
+         run  bundle exec rails generate simple_form:install
+[Simple Form] Simple Form is not configured in the application and will use the default values. Use `rails generate simple_form:install` to generate the Simple Form configuration.
+SimpleForm 3 supports Bootstrap and Zurb Foundation 5. If you want a configuration that is compatible with one of these frameworks, then please re-run this generator with --bootstrap or --foundation as an option.
+      create  config/initializers/simple_form.rb
+       exist  config/locales
+      create  config/locales/simple_form.en.yml
+      create  lib/templates/erb/scaffold/_form.html.erb
+      create  config/initializers/disable_xml_params.rb
+      insert  config/application.rb
+      append  Rakefile
+      create  config/puma.rb
+      create  .sample.env
+      create  Procfile
+Set up stylesheets
+      remove  app/assets/stylesheets/application.css
+      create  app/assets/stylesheets/application.scss
+Install Bitters
+         run  bitters install --path app/assets/stylesheets from "."
+Bitters files installed to app/assets/stylesheets/base/base
+Install Refills
+         run  rails generate refills:import flashes from "."
+      create  app/views/refills/_flashes.html.erb
+      create  app/assets/stylesheets/refills/_flashes.scss
+         run  rm app/views/refills/_flashes.html.erb from "."
+         run  rmdir app/views/refills from "."
+Copying miscellaneous support files
+      create  browserslist
+      create  config/initializers/errors.rb
+      create  config/initializers/json_encoding.rb
+Customizing the 500/404/422 pages
+      insert  public/500.html
+      insert  public/404.html
+      insert  public/422.html
+       exist  
+      create  .ctags
+Initializing git
+      remove  .gitignore
+      create  .gitignore
+         run  mkdir app/views/pages from "."
+         run  touch app/views/pages/.keep from "."
+         run  mkdir spec/lib from "."
+         run  touch spec/lib/.keep from "."
+         run  mkdir spec/controllers from "."
+         run  touch spec/controllers/.keep from "."
+         run  mkdir spec/helpers from "."
+         run  touch spec/helpers/.keep from "."
+         run  mkdir spec/support/matchers from "."
+         run  touch spec/support/matchers/.keep from "."
+         run  mkdir spec/support/mixins from "."
+         run  touch spec/support/mixins/.keep from "."
+         run  mkdir spec/support/shared_examples from "."
+         run  touch spec/support/shared_examples/.keep from "."
+         run  git init from "."
+Initialized empty Git repository in /Users/julia/projectOne/.git/
+Setting up database
+       force  config/database.yml
+         run  bundle exec rake db:create db:migrate
+== 20151006102428 CreateDelayedJobs: migrating ================================
+-- create_table(:delayed_jobs, {:force=>true})
+   -> 0.0302s
+-- add_index(:delayed_jobs, [:priority, :run_at], {:name=>"delayed_jobs_priority"})
+   -> 0.0041s
+== 20151006102428 CreateDelayedJobs: migrated (0.0345s) =======================
+
+Setting up Segment
+      create  app/views/application/_analytics.html.erb
+Setting up bundler-audit
+      create  lib/tasks/bundler_audit.rake
+      append  Rakefile
+Springifying binstubs
+         run  bundle exec spring binstub --all
+* bin/rake: spring inserted
+* bin/rspec: generated with spring
+* bin/rails: spring inserted
+Congratulations! You just pulled our suspenders.
+Remember to run 'rails generate airbrake' with your API key.
+~ % bundle install
+Could not locate Gemfile or .bundle/ directory
+~ % suspenders app --heroku true
+      create  
+      create  README.md
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/views/layouts/application.html.erb
+      create  app/assets/images/.keep
+      create  app/mailers/.keep
+      create  app/models/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+      remove  Gemfile
+      create  Gemfile
+      create  .ruby-version
+      insert  Gemfile
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/............
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies............................................................................................
+Using rake 10.4.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.8.1
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile 0.6.2
+Using rack 1.6.4
+Using mime-types 2.6.2
+Using arel 6.0.3
+Using addressable 2.3.8
+Using multi_json 1.11.2
+Using execjs 2.6.0
+Using awesome_print 1.6.1
+Using debug_inspector 0.0.2
+Using sass 3.4.18
+Using thor 0.19.1
+Using bundler 1.10.6
+Using byebug 6.0.2
+Using coderay 1.1.0
+Using coffee-script-source 1.9.1.1
+Using safe_yaml 1.0.4
+Using database_cleaner 1.5.0
+Using diff-lcs 1.2.5
+Using docile 1.1.5
+Using dotenv 2.0.2
+Using thread 0.2.2
+Using flutie 2.0.0
+Using high_voltage 2.4.0
+Using highline 1.7.7
+Using tins 1.6.0
+Using terminal-table 1.5.2
+Using method_source 0.8.2
+Using newrelic_rpm 3.13.2.302
+Using normalize-rails 3.0.3
+Using pg 0.18.3
+Using slop 3.6.0
+Using puma 2.14.0
+Using rack-timeout 0.3.2
+Using refills 0.1.0
+Using rspec-support 3.3.0
+Using tilt 2.0.1
+Using simplecov-html 0.10.0
+Using spring 1.4.0
+Using timecop 0.8.0
+Using tzinfo 1.2.2
+Using nokogiri 1.6.6.2
+Using rack-test 0.6.3
+Using sprockets 3.4.0
+Using mail 2.6.3
+Using launchy 2.4.3
+Using rack-canonical-host 0.1.0
+Using airbrake 4.3.1
+Using autoprefixer-rails 6.0.3
+Using uglifier 2.7.2
+Using binding_of_caller 0.7.2
+Using bourbon 4.2.5
+Using bundler-audit 0.4.0
+Using coffee-script 2.4.1
+Using crack 0.4.2
+Using easy_translate 0.5.0
+Using term-ansicolor 1.3.2
+Using pry 0.10.2
+Using rspec-core 3.3.2
+Using rspec-expectations 3.3.1
+Using rspec-mocks 3.3.2
+Using simplecov 0.10.0
+Using spring-commands-rspec 1.0.4
+Using activesupport 4.2.4
+Using loofah 2.0.3
+Using xpath 2.0.0
+Using recipient_interceptor 0.1.2
+Using neat 1.7.2
+Using webmock 1.21.0
+Using pry-rails 0.3.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.6
+Using activemodel 4.2.4
+Using delayed_job 4.1.1
+Using factory_girl 4.5.0
+Using i18n-tasks 0.8.7
+Using shoulda-matchers 3.0.0
+Using rails-html-sanitizer 1.0.2
+Using capybara 2.5.0
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.4
+Using activerecord 4.2.4
+Using email_validator 1.6.0
+Using capybara-webkit 1.7.1
+Using formulaic 0.3.0
+Using actionview 4.2.4
+Using delayed_job_active_record 4.1.0
+Using actionpack 4.2.4
+Using actionmailer 4.2.4
+Using railties 4.2.4
+Using sprockets-rails 2.3.3
+Using simple_form 3.2.0
+Using coffee-rails 4.1.0
+Using dotenv-rails 2.0.2
+Using factory_girl_rails 4.5.0
+Using jquery-rails 4.0.5
+Using rspec-rails 3.3.3
+Using rails 4.2.4
+Using sass-rails 5.0.4
+Using web-console 2.2.1
+Using title 0.0.5
+Installing rails_stdout_logging 0.0.4
+Bundle complete! 43 Gemfile dependencies, 108 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+Setting up the development environment
+      insert  config/environments/development.rb
+      insert  config/application.rb
+       force  bin/setup
+         run  chmod a+x bin/setup from "."
+      create  lib/tasks/dev.rake
+      insert  config/application.rb
+        gsub  config/environments/development.rb
+        gsub  config/environments/test.rb
+Setting up the test environment
+      create  spec/support/factory_girl.rb
+      create  .hound.yml
+    generate  rspec:install
+[Simple Form] Simple Form is not configured in the application and will use the default values. Use `rails generate simple_form:install` to generate the Simple Form configuration.
+      create  .rspec
+       exist  spec
+      create  spec/spec_helper.rb
+      create  spec/rails_helper.rb
+      remove  spec/rails_helper.rb
+      remove  spec/spec_helper.rb
+      create  spec/rails_helper.rb
+      create  spec/spec_helper.rb
+         run  rails g delayed_job:active_record from "."
+[Simple Form] Simple Form is not configured in the application and will use the default values. Use `rails generate simple_form:install` to generate the Simple Form configuration.
+      create  bin/delayed_job
+       chmod  bin/delayed_job
+      create  db/migrate/20151006102602_create_delayed_jobs.rb
+      create  spec/support/database_cleaner.rb
+      create  spec/features
+      create  spec/features/.keep
+      create  spec/support/features
+      create  spec/support/features/.keep
+      create  circle.yml
+      create  spec/support/i18n.rb
+         run  cp $(i18n-tasks gem-path)/templates/rspec/i18n_spec.rb spec/ from "."
+      create  config/i18n-tasks.yml
+      create  spec/support/action_mailer.rb
+Setting up the production environment
+      create  config/newrelic.yml
+      create  config/smtp.rb
+     prepend  config/environments/production.rb
+      insert  config/environments/production.rb
+      append  config/environments/production.rb
+      insert  config/environments/production.rb
+      insert  config/environments/production.rb
+      insert  config/environments/production.rb
+Setting up the staging environment
+      create  config/environments/staging.rb
+      append  config/environments/staging.rb
+Moving secret token out of version control
+       force  config/secrets.yml
+Creating suspenders views
+      create  app/views/application
+      create  app/views/application/_flashes.html.erb
+      create  app/helpers/flashes_helper.rb
+      create  app/views/application/_javascript.html.erb
+       force  app/views/layouts/application.html.erb
+Configuring app
+      insert  config/environments/development.rb
+      insert  config/environments/test.rb
+      insert  config/environments/staging.rb
+      insert  config/environments/production.rb
+      insert  config/application.rb
+      insert  config/environments/test.rb
+      remove  config/locales/en.yml
+      create  config/locales/en.yml
+         run  bundle exec rails generate simple_form:install
+[Simple Form] Simple Form is not configured in the application and will use the default values. Use `rails generate simple_form:install` to generate the Simple Form configuration.
+SimpleForm 3 supports Bootstrap and Zurb Foundation 5. If you want a configuration that is compatible with one of these frameworks, then please re-run this generator with --bootstrap or --foundation as an option.
+      create  config/initializers/simple_form.rb
+       exist  config/locales
+      create  config/locales/simple_form.en.yml
+      create  lib/templates/erb/scaffold/_form.html.erb
+      create  config/initializers/disable_xml_params.rb
+      insert  config/application.rb
+      append  Rakefile
+      create  config/puma.rb
+      create  .sample.env
+      create  Procfile
+Set up stylesheets
+      remove  app/assets/stylesheets/application.css
+      create  app/assets/stylesheets/application.scss
+Install Bitters
+         run  bitters install --path app/assets/stylesheets from "."
+Bitters files installed to app/assets/stylesheets/base/base
+Install Refills
+         run  rails generate refills:import flashes from "."
+      create  app/views/refills/_flashes.html.erb
+      create  app/assets/stylesheets/refills/_flashes.scss
+         run  rm app/views/refills/_flashes.html.erb from "."
+         run  rmdir app/views/refills from "."
+Copying miscellaneous support files
+      create  browserslist
+      create  config/initializers/errors.rb
+      create  config/initializers/json_encoding.rb
+Customizing the 500/404/422 pages
+      insert  public/500.html
+      insert  public/404.html
+      insert  public/422.html
+       exist  
+      create  .ctags
+Initializing git
+      remove  .gitignore
+      create  .gitignore
+         run  mkdir app/views/pages from "."
+         run  touch app/views/pages/.keep from "."
+         run  mkdir spec/lib from "."
+         run  touch spec/lib/.keep from "."
+         run  mkdir spec/controllers from "."
+         run  touch spec/controllers/.keep from "."
+         run  mkdir spec/helpers from "."
+         run  touch spec/helpers/.keep from "."
+         run  mkdir spec/support/matchers from "."
+         run  touch spec/support/matchers/.keep from "."
+         run  mkdir spec/support/mixins from "."
+         run  touch spec/support/mixins/.keep from "."
+         run  mkdir spec/support/shared_examples from "."
+         run  touch spec/support/shared_examples/.keep from "."
+         run  git init from "."
+Initialized empty Git repository in /Users/julia/app/.git/
+Setting up database
+       force  config/database.yml
+         run  bundle exec rake db:create db:migrate
+== 20151006102602 CreateDelayedJobs: migrating ================================
+-- create_table(:delayed_jobs, {:force=>true})
+   -> 0.0092s
+-- add_index(:delayed_jobs, [:priority, :run_at], {:name=>"delayed_jobs_priority"})
+   -> 0.0027s
+== 20151006102602 CreateDelayedJobs: migrated (0.0122s) =======================
+
+Creating Heroku apps
+         run   heroku create app-staging  --remote staging from "."
+ !    Name is already taken
+         run   heroku config:add RACK_ENV=staging RAILS_ENV=staging --remote staging from "."
+ !    No app specified.
+ !    Run this command from an app folder or specify which app to use with --app APP.
+         run   heroku create app-production  --remote production from "."
+Installing core plugin heroku-cli-addons... done
+ !    Name is already taken
+         run   heroku config:add RAILS_SERVE_STATIC_FILES=true --remote staging from "."
+ !    No app specified.
+ !    Run this command from an app folder or specify which app to use with --app APP.
+         run   heroku config:add RAILS_SERVE_STATIC_FILES=true --remote production from "."
+ !    No app specified.
+ !    Run this command from an app folder or specify which app to use with --app APP.
+      append  bin/setup
+         run   heroku config:add SECRET_KEY_BASE=6ef66e56bddc47ffade58dfd80347fd02ab815154e1d9ddb818363be4779f5e1a51547240fe176117b6e7b558582ad7059aa7993c292e0088ae73261d7a6f916 --remote staging from "."
+ !    No app specified.
+ !    Run this command from an app folder or specify which app to use with --app APP.
+         run   heroku config:add SECRET_KEY_BASE=69f3cb151b28364d217ace3410dd2eaa7cbb50f22235d6bc9378812c4ec2ccfd7d26506e656fbcfe3929b15ea731a01fafd7e4fc33a6a61359fb71b614fd04df --remote production from "."
+ !    No app specified.
+ !    Run this command from an app folder or specify which app to use with --app APP.
+      create  bin/deploy
+      append  README.md
+         run  chmod a+x bin/deploy from "."
+Setting up Segment
+      create  app/views/application/_analytics.html.erb
+Setting up bundler-audit
+      create  lib/tasks/bundler_audit.rake
+      append  Rakefile
+Springifying binstubs
+         run  bundle exec spring binstub --all
+* bin/rake: spring inserted
+* bin/rspec: generated with spring
+* bin/rails: spring inserted
+Congratulations! You just pulled our suspenders.
+Remember to run 'rails generate airbrake' with your API key.
