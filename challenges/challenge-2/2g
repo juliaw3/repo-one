@@ -1,0 +1,110 @@
+~ % brew install GEOS
+==> Downloading https://homebrew.bintray.com/bottles/geos-3.4.2.mavericks.bottle
+######################################################################## 100.0%
+==> Pouring geos-3.4.2.mavericks.bottle.1.tar.gz
+🍺  /usr/local/Cellar/geos/3.4.2: 385 files, 8.5M
+~ % brew install GDAL
+==> Installing dependencies for gdal: giflib, lzlib, proj, libgeotiff, sq
+==> Installing gdal dependency: giflib
+==> Downloading https://homebrew.bintray.com/bottles/giflib-4.2.3.mavericks.bott
+######################################################################## 100.0%
+==> Pouring giflib-4.2.3.mavericks.bottle.1.tar.gz
+🍺  /usr/local/Cellar/giflib/4.2.3: 38 files, 692K
+==> Installing gdal dependency: lzlib
+==> Downloading https://homebrew.bintray.com/bottles/lzlib-1.7.mavericks.bottle.
+######################################################################## 100.0%
+==> Pouring lzlib-1.7.mavericks.bottle.tar.gz
+🍺  /usr/local/Cellar/lzlib/1.7: 9 files, 152K
+==> Installing gdal dependency: proj
+==> Downloading https://homebrew.bintray.com/bottles/proj-4.9.2.mavericks.bottle
+######################################################################## 100.0%
+==> Pouring proj-4.9.2.mavericks.bottle.tar.gz
+🍺  /usr/local/Cellar/proj/4.9.2: 52 files, 6.0M
+==> Installing gdal dependency: libgeotiff
+==> Downloading https://homebrew.bintray.com/bottles/libgeotiff-1.4.1_1.maverick
+######################################################################## 100.0%
+==> Pouring libgeotiff-1.4.1_1.mavericks.bottle.tar.gz
+🍺  /usr/local/Cellar/libgeotiff/1.4.1_1: 72 files, 6.6M
+==> Installing gdal dependency: sqlite
+==> Downloading https://homebrew.bintray.com/bottles/sqlite-3.8.11.1.mavericks.b
+######################################################################## 100.0%
+==> Pouring sqlite-3.8.11.1.mavericks.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+OS X provides an older sqlite3.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/sqlite/lib
+    CPPFLAGS: -I/usr/local/opt/sqlite/include
+
+==> Summary
+🍺  /usr/local/Cellar/sqlite/3.8.11.1: 9 files, 2.9M
+==> Installing gdal dependency: freexl
+==> Downloading https://homebrew.bintray.com/bottles/freexl-1.0.2.mavericks.bott
+######################################################################## 100.0%
+==> Pouring freexl-1.0.2.mavericks.bottle.tar.gz
+🍺  /usr/local/Cellar/freexl/1.0.2: 10 files, 144K
+==> Installing gdal dependency: libxml2
+==> Downloading https://homebrew.bintray.com/bottles/libxml2-2.9.2.mavericks.bot
+######################################################################## 100.0%
+==> Pouring libxml2-2.9.2.mavericks.bottle.1.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/libxml2/lib
+    CPPFLAGS: -I/usr/local/opt/libxml2/include
+
+==> Summary
+🍺  /usr/local/Cellar/libxml2/2.9.2: 275 files, 11M
+==> Installing gdal dependency: json-c
+==> Downloading https://homebrew.bintray.com/bottles/json-c-0.12.mavericks.bottl
+######################################################################## 100.0%
+==> Pouring json-c-0.12.mavericks.bottle.1.tar.gz
+🍺  /usr/local/Cellar/json-c/0.12: 25 files, 228K
+==> Installing gdal dependency: liblwgeom
+==> Downloading https://homebrew.bintray.com/bottles/liblwgeom-2.1.5_1.mavericks
+######################################################################## 100.0%
+==> Pouring liblwgeom-2.1.5_1.mavericks.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Conflicts with PostGIS, which also installs liblwgeom.dylib
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/liblwgeom/lib
+    CPPFLAGS: -I/usr/local/opt/liblwgeom/include
+
+==> Summary
+🍺  /usr/local/Cellar/liblwgeom/2.1.5_1: 9 files, 2.3M
+==> Installing gdal dependency: libspatialite
+==> Downloading https://homebrew.bintray.com/bottles/libspatialite-4.3.0a.maveri
+######################################################################## 100.0%
+==> Pouring libspatialite-4.3.0a.mavericks.bottle.tar.gz
+🍺  /usr/local/Cellar/libspatialite/4.3.0a: 28 files, 21M
+==> Installing gdal
+==> Downloading https://homebrew.bintray.com/bottles/gdal-1.11.2_3.mavericks.bot
+######################################################################## 100.0%
+==> Pouring gdal-1.11.2_3.mavericks.bottle.1.tar.gz
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /Users/julia/Library/Python/2.7/lib/python/site-packages
+  echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >> /Users/julia/Library/Python/2.7/lib/python/site-packages/homebrew.pth
+==> Summary
+🍺  /usr/local/Cellar/gdal/1.11.2_3: 230 files, 34M
