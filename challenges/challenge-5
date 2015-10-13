@@ -1,0 +1,121 @@
+Tutorial 1: Rails Girls App Tutorial
+Coach: Explain what each command does. What was generated? What does the server do?
+	commands: mkdir - makes a new directory
+		  cd - enter into a directory
+		  rails new railsgirls - creates a new rails project named rails girls
+		  rails server - starts the server
+	What was generated? A website
+	What does the server do? Allows you to see the changes you are making without 		    actually making the changes
+
+Coach: What is Rails scaffolding? a temporary structure used to start something
+
+Coach: Talk about the relationship between HTML and Rails. What part of views is HTML and what is Embedded Ruby? What is MVC and how does this relate to it?
+	It seems like HTML is what is putting the things on the screen that we can see, 	   and Embedded Ruby is the layout and all of the other code. I have not idea what 	   MVC is 
+
+Coach: Talk a little about CSS and layouts.
+	Css is what makes the HTML not look horrible
+
+Coach: Talk a little about HTML.
+	HTML is cool……
+	HTML is a language that is used to design websites… we use it here to layout the 	   parts of the website that is visible to a user
+
+Coach: Talk about routes, and include details on the order of routes and their relation to static files.
+	The route is how you access the page that you actually want to access
+
+
+Tutorial 0: Cheat Sheet Conventions
+  NO COACHING :(
+
+Tutorial 1: Commenting for Rails Girls App
+  NO COACHING :,(
+
+Tutorial 2: Put your App Online With Heroku
+Coach: Talk about he benefits of deploying to Heroku vs traditional servers.
+	It is simple to get a project up and running with few lines of code
+
+Coach: This would be a good time to talk about the version control system and git, also explain the .gitignore and why we don’t want these files included.
+	The version control system makes sure you are working in the same version 		   throughout an entire project
+	We don’t inlude these files because they are bad/… why would we want to include 	   the log of everything we did… that is not necessary for the project to work
+
+Coach: You can talk about RDBMS and the deferent ones out there, plus include some details on Heroku’s dependency on PostgreSQL.
+	-relational database management system - used to store information
+	-EX: oracle Database, Micrsoft SQL server, MySQL …
+	- I would guess that Heroku is dependent on PostgreSQL because PostgreSQL is an 	   object-relational database management system and most apps created in Heroku 	   are going to be object-oriented
+
+Coach: You can talk about logging on Heroku, as well as its other quirks
+	-it generates really weird names for your projects
+
+
+Tutorial 3: Create Thumbnails with Carrierwave
+Coach: Explain what specifying the image width in HTML at the end of Step 4 does and how it differs from resizing images on the server.
+	specifying the image width will make the image be the same size regardless the 		   size of the screen it is being portrayed on. Resizing an image on the server 	   will make the image proportional to the size of the screen…. or maybe those are 	   reversed… or maybe that is completely wrong
+
+Coach: What is ImageMagick and how is it different from libraries/gems we used before?
+	-it is magic spelled wrong…
+	-it is used to display, convert, and edit image and vector files
+
+Coach: Explain the concept of comments in code
+	-comments are used so that you can look back in five days and remember what you 	   were doing, where you put code, and why you did it that way
+
+
+Tutorial 4: Add design using HTML & CSS
+Coach: Talk a little about table vs div
+	-I would guess that a table layout is a standard uniform layout, and a div is a 	   customisable layout
+
+Coach: Explain what the new code means line by line, and talk a little about Bootstrap 12 grids layout:
+	<% @ideas.in_groups_of(3) do |group| %> —this is the header
+  	<div class="row"> - this creates a row
+   	 <% group.compact.each do |idea| %> - this makes the cow compact to the size of t	   he word Idea
+      <div class="col-md-4"> - this makes a column
+        <%= image_tag idea.picture_url, width: '100%' if idea.picture.present?%> - this 	   makes the image the full size of the row and column
+        <h4><%= link_to idea.name, idea %></h4> - a header that is a link
+        <%= idea.description %> - a description that the user enters
+     	 </div> - close 
+    	<% end %> - end
+ 	 </div> - close
+	<% end %> - end
+
+Coach: Explain what the new clade means line by line 
+	<p id="notice"><%= notice %></p> -  I have no idea
+	<div class="row"> - creating a row
+  	<div class="col-md-9"> - creating a column
+   	 <%= image_tag(@idea.picture_url, width: '100%') if @idea.picture.present? %> - 	   puts the image into the box dreaded from the row/column
+  	</div>
+
+ 	 <div class="col-md-3"> - creates another column?
+   	 <p><b>Name: </b><%= @idea.name %></p> - puts the word ‘Name’ in that column
+   	 <p><b>Description: </b><%= @idea.description %></p> - adds a description
+    	<p>
+     	 <%= link_to 'Edit', edit_idea_path(@idea) %> | - makes a link on word ‘Edit
+     	 <%= link_to 'Destroy', @idea, data: { confirm: 'Are you sure?' }, method: :delete 	   %> | - makes a link on word destroy
+     	 <%= link_to 'Back', ideas_path %> - makes a link to ‘back’
+    	</p> - close
+  	</div> - close
+	</div> - close
+
+
+Tutorial 5: Adding Authentication with Devise
+Coach: Explain what user model has been generated. What are the fields?
+	- i have no idea
+
+Coach: Talk about the user_signed_in and current_user helpers. Why are they useful?
+	- makes a human sign in or lets a human know how is signed in. So you can save 	 	   your data and it will be there every time you sign in, and multiple people 	  	   could use this on the same computer by signing in and out
+
+
+Tutorial 6: Adding Gravatar to your APP
+  NO COACHING :(
+
+
+Tutorial 7: Test your app with RSpec
+Coach: Talk about testing and Behavior-Driven Development
+	-can express behaviour and intended outcomes (behaviour should not have a u in it… 	   but autocorrect thinks I’m British)
+
+Coach: Talk about googling terminal output/
+	-i googled for the answer and did not find it…
+
+Coach: Talk a bit about refactoring.
+	-the process of restructuring existing computer code (changing the factoring) 		   without changing its external behaviour
+	-making something more efficient?
+	-using less code to do something
+
+
