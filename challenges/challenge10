@@ -1,0 +1,44 @@
+1. Write a describe block for the Tweet Model:
+	describe Tweet do
+	end
+Output:
+	“Congratulations! You’ve successfully completed challenge 1!
+
+2. Create a pending test called “can set status”
+	describe Tweet do
+  	    it "can set status"
+	end
+Output:
+	“Congratulations! You’ve successfully completed challenge 2!
+
+3. Instantiate a tweet, give it the status “Nom nom nom”, and test that the status has been properly set to the value using ==
+	describe Tweet do
+ 	   it 'has a status of Nom nom nom'
+ 	   tweet = Tweet.new
+ 	   tweet.status = "Nom nom nom"
+ 	   tweet.status.should == "Nom nom nom"
+	end
+
+Output:
+	“Congratulations! You’ve successfully completed challenge 3!
+4. Using a predicate ‘be’ matcher, make sure that a tweet like “Nom nom nom” is public
+	describe Tweet do
+  	   it 'without a leading @ symbol should be public' do
+    	      tweet = Tweet.new(status: 'Nom nom nom')
+    	      tweet.should be_public
+  	   end
+	end
+Output:
+	“Congratulations! You’ve successfully completed challenge 4!
+
+5. ensure that out tweet.status.length is less than or equal to 140 characters. Use a be matcher in your spec
+	describe Tweet do
+  	   it 'truncates the status to 140 characters' do
+    	      tweet = Tweet.new(status: 'Nom nom nom' * 100)
+   	       tweet.status.length.should be <= 140
+ 	    end
+	end
+
+Output:
+	“Congratulations! You’ve successfully completed challenge 5!
+
